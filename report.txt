@@ -1,0 +1,43 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'Phase2/Code/Network/Network.py'
+ outputting to 'Network.py'
+--------------------------------------------------------------------------------
+
+163:8: INFO: Added keywords to args of function 'tf.transpose'
+167:10: INFO: Renamed 'tf.matrix_solve' to 'tf.linalg.solve'
+177:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+178:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+181:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+182:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+185:8: INFO: Renamed 'tf.layers.max_pooling2d' to 'tf.compat.v1.layers.max_pooling2d'
+187:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+188:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+191:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+192:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+195:8: INFO: Renamed 'tf.layers.max_pooling2d' to 'tf.compat.v1.layers.max_pooling2d'
+197:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+198:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+201:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+202:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+205:8: INFO: Renamed 'tf.layers.max_pooling2d' to 'tf.compat.v1.layers.max_pooling2d'
+207:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+208:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+211:8: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+212:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+215:8: INFO: Renamed 'tf.layers.flatten' to 'tf.compat.v1.layers.flatten'
+217:8: INFO: Renamed 'tf.layers.dense' to 'tf.compat.v1.layers.dense'
+218:8: INFO: Renamed 'tf.layers.dropout' to 'tf.compat.v1.layers.dropout'
+219:8: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+220:11: INFO: Renamed 'tf.layers.dense' to 'tf.compat.v1.layers.dense'
+258:25: INFO: Added keywords to args of function 'tf.reduce_mean'
+--------------------------------------------------------------------------------
+
